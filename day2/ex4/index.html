@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <header></header>
+    <main>
+        <!-- form registartion -->
+        <form>
+            <!-- personal info field-set -->
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="fulname">Full Name :</label>
+                <input type="text"><br>
+                <br>
+                <label for="email">Email :</label>
+                <input type="email"><br>
+                <br>
+                <label for="passwrd">Password</label>
+                <input type="password"><br>
+                <br>
+                <label for="age">Age</label>
+                <input type="number"><br>
+                <br>
+                <label for="birth">Date of Birth</label>
+                <input type="date"><br>
+                <br>
+            </fieldset>
+            <!-- gender filead-set -->
+            <fieldset>
+                <legend>Gender</legend>
+                <input type="radio" name="gender">
+                <label for="male">Male</label>
+                <input type="radio" name="gender">
+                <label for="female">Female</label>
+                <input type="radio" name="gender">
+                <label for="Other">Other</label>
+            </fieldset>
+            <!-- skills field-set  -->
+            <fieldset>
+                <legend>Skills</legend>
+                <input type="checkbox">
+                <label for="html ">HTML </label>
+                <input type="checkbox">
+                <label for="css ">CSS </label>
+                <input type="checkbox">
+                <label for="js ">JavaSript</label>
+                <input type="checkbox">
+                <label for="rct">React </label>
+            </fieldset>
+            <!-- contries field-set -->
+            <fieldset>
+                <legend>Contry</legend>
+                <label for="select">Selet country :</label> 
+                <select>
+                    <option value="">Moroccoo</option>
+                    <option value="">France</option>
+                    <option value="">Spain</option>
+                    <option value="">Germany</option>
+                </select>
+            </fieldset>
+            <!-- message field-set -->
+            <fieldset>
+                <legend>Message</legend>
+                <textarea cols="90ox" rows="10px" name="" id=""></textarea>
+            </fieldset>
+            <!-- uploading file part -->
+            <fieldset>
+                <legend>Upload</legend>
+                <label for="img">Upload image :</label>
+                <input type="file" accept="image">
+            </fieldset>
+            <br>
+            <!-- buttoms -->
+            <button type="submit">Send</button>
+            <button type="reset">Reset</button>
+        </form>
+    </main>
+    <footer></footer>
+</body>
+</html>
